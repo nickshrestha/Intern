@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:login/Appbar.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -9,7 +10,7 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   bool isRememberMe = false;
 
-  get image => null;
+  
 
 // Emaill Box
   Widget buildEmail() {
@@ -80,7 +81,7 @@ class _LoginScreenState extends State<LoginScreen> {
           height: 60,
           child: TextField(
               obscureText: true,
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.black87),
               decoration: InputDecoration(
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.only(top: 14),
@@ -110,7 +111,7 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
-// Remmember PAssword /Button
+// Remmember Password Button
   Widget buildRememberCB() {
     return Container(
       height: 20,
@@ -147,7 +148,10 @@ class _LoginScreenState extends State<LoginScreen> {
       padding: EdgeInsets.symmetric(vertical: 25),
       width: double.infinity,
       child: ElevatedButton(
-        onPressed: () => print('Login Pressed'),
+        onPressed: () {
+          Navigator.of(context)
+          .push(MaterialPageRoute(builder: (context) => AppBarScreen()));
+        },
         child: Text(
           'LOGIN',
           style: TextStyle(
