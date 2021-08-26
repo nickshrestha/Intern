@@ -8,10 +8,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(
-        title: Text('Saiyan Details'),
-        backgroundColor: Colors.black,
-      ),
+      
       body: ListView(children: <Widget>[
 
         /// Goku Saiyan 1 card 
@@ -39,7 +36,7 @@ class Home extends StatelessWidget {
                       'Kakarot: Power level 3000000',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.cyan,
+                        color: Colors.orange.shade900,
                         fontSize: 24,
                       ),
                     ),
@@ -95,7 +92,7 @@ class Home extends StatelessWidget {
                       'Vageta: Power level 2000000',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.cyan,
+                        color: Colors.orange.shade900,
                         fontSize: 24,
                       ),
                     ),
@@ -151,7 +148,7 @@ class Home extends StatelessWidget {
                       'Goku Black: Power level 2500000',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.cyan,
+                        color: Colors.orange.shade900,
                         fontSize: 24,
                       ),
                     ),
@@ -207,7 +204,7 @@ class Home extends StatelessWidget {
                       'Nappa: Power level 1000000',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.cyan,
+                        color: Colors.orange.shade900,
                         fontSize: 24,
                       ),
                     ),
@@ -263,7 +260,7 @@ class Home extends StatelessWidget {
                       'Paragus: Power level 1500000',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.cyan,
+                        color: Colors.orange.shade900,
                         fontSize: 24,
                       ),
                     ),
