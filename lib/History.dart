@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
-class Setting extends StatelessWidget {
-  const Setting({Key? key}) ;
+class History extends StatelessWidget {
+  const History({Key? key}) ;
 
   @override 
   Widget build(BuildContext context) {

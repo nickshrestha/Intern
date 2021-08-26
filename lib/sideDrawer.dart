@@ -42,9 +42,9 @@ class SideDrawer extends StatelessWidget {
               onTap: () => Navigator.pushReplacementNamed(context, 'Videos'),
              ),
                ListTile(
-              title: Text('Hisotry'),
-              leading: Icon(Icons.history),
-              onTap: () => Navigator.pushReplacementNamed(context, 'History'),
+              title: Text('Setting'),
+              leading: Icon(Icons.settings_accessibility_outlined),
+              onTap: () => Navigator.pushReplacementNamed(context, 'Setting'),
                ),
           ],
         ),

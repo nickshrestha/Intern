@@ -4,7 +4,7 @@ import 'package:login/sideDrawer.dart';
 
 import 'Power.dart';
 import 'Saiyan.dart';
-import 'Setting.dart';
+import 'History.dart';
 
 class AppBarScreen extends StatefulWidget {
   @override
@@ -50,7 +50,7 @@ class _AppBarScreenState extends State<AppBarScreen> {
                   Tab(icon: Icon(Icons.home), text: 'Home'),
                   Tab(icon: Icon(Icons.bolt_outlined), text: 'Saiyan'),
                   Tab(icon: Icon(Icons.blur_on), text: 'Power'),
-                  Tab(icon: Icon(Icons.settings), text: 'Setting'),
+                  Tab(icon: Icon(Icons.history), text: 'History'),
                 ],
               ),
               elevation: 20,
@@ -63,7 +63,7 @@ class _AppBarScreenState extends State<AppBarScreen> {
                Home(),
                Saiyan(),
                Power(),
-               Setting(),
+               History(),
               
              ],),
       )  
