@@ -102,8 +102,10 @@ class Home extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.all(16).copyWith(bottom: 0),
                 child: Text(
+
                   'Vegeta is the prince of the fallen Saiyan race. He is the eldest son of King Vegeta, the older brother of Tarble, the husband of Bulma, the father of Trunks and Bulla, and the ancestor of Vegeta Jr.',
                   style: TextStyle(fontSize: 16),
+                  
                 ),
               ),
               ButtonBar(

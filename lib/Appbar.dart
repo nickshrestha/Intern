@@ -49,7 +49,7 @@ class _AppBarScreenState extends State<AppBarScreen> {
                 tabs: [
                   Tab(icon: Icon(Icons.home), text: 'Home'),
                   Tab(icon: Icon(Icons.bolt_outlined), text: 'Saiyan'),
-                  Tab(icon: Icon(Icons.blur_on), text: 'Power'),
+                  Tab(icon: Icon(Icons.shop), text: 'Shop'),
                   Tab(icon: Icon(Icons.history), text: 'History'),
                 ],
               ),
